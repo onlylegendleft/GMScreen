@@ -20,14 +20,14 @@ function add_quickref_item(parent, data, type) {
     </div>\
     ';
 
-    var style = window.getComputedStyle(parent.parentNode.parentNode);
-    var color = style.backgroundColor;
+    var style = window.getComputedStyle(document.body);
+    var color = style.getPropertyValue("background-color");
 
     item.onclick = function () {
         show_modal(data, color, type);
     }
 
-    parent.appendChild(item);
+    document.body.appendChild(item);
 }
 
 function show_modal(data, color, type) {
@@ -73,8 +73,9 @@ function init() {
     fill_section(data_environment_vision, "environment-vision", "Environment");
     fill_section(data_environment_cover, "environment-cover", "Environment");
 
-    var modal = document.getElementById("modal");
-    modal.onclick = hide_modal;
+    let modal = document.getElementById("modal");
+    console.log(modal);
+    // modal.onclick = hide_modal;
 }
 
 $(window).load(init);
