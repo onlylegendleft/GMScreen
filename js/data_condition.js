@@ -1,4 +1,4 @@
-data_condition = [
+export const data_condition = [
     {
         title: "Blinded",
         icon: "one-eyed",

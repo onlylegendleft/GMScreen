@@ -21,7 +21,7 @@ export const data_environment_obscurance = [
     }
 ]
 
-data_environment_light = [
+export const data_environment_light = [
     {
         title: "Bright light",
         icon: "star-pupil",
@@ -57,7 +57,7 @@ data_environment_light = [
     }
 ]
 
-data_environment_vision = [
+export const data_environment_vision = [
     {
         title: "Blindsight",
         icon: "one-eyed",
@@ -92,8 +92,7 @@ data_environment_vision = [
         ]
     }
 ]
-
-data_environment_cover = [
+export const data_environment_cover = [
     {
         title: "Half cover",
         icon: "broken-shield",
