@@ -1,3 +1,4 @@
+export const data_movement = {
 data_movement = [
     {
         title: "Move",
@@ -122,3 +123,4 @@ data_movement = [
         ]
     }
 ]
+}
