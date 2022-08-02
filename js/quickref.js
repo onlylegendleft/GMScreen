@@ -3,7 +3,7 @@ import { data_reaction } from "./data_reaction.js"
 import { data_environment_cover, data_environment_vision, data_environment_obscurance, data_environment_light} from "./data_environments.js"
 import { data_condition } from "./data_condition.js"
 import { data_action } from "./data_action.js"
-import {data_bonusaction} from ".data_bonusaction.js"
+import { data_bonusaction } from "./data_bonusaction.js"
 function add_quickref_item(parent, data, type) {
     var icon = data.icon || "perspective-dice-six-faces-one";
     var subtitle = data.subtitle || "";
