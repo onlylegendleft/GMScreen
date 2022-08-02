@@ -1,5 +1,4 @@
 export const data_movement = {
-data_movement = [
     {
         title: "Move",
         icon: "run",
