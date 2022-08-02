@@ -1,4 +1,4 @@
-data_action = [
+export const data_action = [
     {
         title: "Attack",
         icon: "crossed-swords",
