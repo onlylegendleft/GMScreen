@@ -1,4 +1,4 @@
-data_reaction = [
+export const data_reaction = [
     {
         title: "Opportunity attack",
         icon: "crossed-swords",

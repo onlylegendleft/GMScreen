@@ -1,4 +1,4 @@
-data_environment_obscurance = [
+export const data_environment_obscurance = [
     {
         title: "Lightly obscured",
         icon: "bleeding-eye",

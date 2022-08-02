@@ -1,4 +1,4 @@
-data_bonusaction = [
+export const data_bonusaction = [
     {
         title: "Offhand Attack",
         icon: "crossed-swords",

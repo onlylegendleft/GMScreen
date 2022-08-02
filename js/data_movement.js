@@ -1,4 +1,4 @@
-export const data_movement = {
+export const data_movement = [
     {
         title: "Move",
         icon: "run",
@@ -122,4 +122,3 @@ export const data_movement = {
         ]
     }
 ]
-}
